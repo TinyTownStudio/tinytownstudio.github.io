@@ -1,6 +1,5 @@
 import presetWind from "https://esm.sh/@unocss/preset-wind@0.57.7";
 import presetUno from "https://esm.sh/@unocss/preset-uno@0.57.7";
-import presetTypography from "https://esm.sh/@unocss/preset-typography@0.57.7";
 import { createGenerator } from "https://esm.sh/@unocss/core@0.57.7";
 
 const uno = createGenerator({
@@ -13,7 +12,7 @@ const uno = createGenerator({
       bg: "var(--bg)",
     },
   },
-  presets: [presetUno(), presetWind(), presetTypography()],
+  presets: [presetUno(), presetWind()],
 });
 
 const style = document.querySelector("style#uno");
