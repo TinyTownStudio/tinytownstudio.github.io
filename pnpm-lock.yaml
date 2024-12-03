@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@tinytown/pub':
-        specifier: ^0.0.2
-        version: 0.0.2(jiti@1.21.6)(yaml@2.6.1)
+        specifier: github:TinyTownStudio/pub
+        version: https://codeload.github.com/TinyTownStudio/pub/tar.gz/da7a5c444f56b9c6e520858c4e074b8aed63162b(jiti@1.21.6)(srcset@5.0.1)(yaml@2.6.1)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -220,8 +220,9 @@ packages:
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
 
-  '@tinytown/pub@0.0.2':
-    resolution: {integrity: sha512-J5jtSc7clXIgCjkwUUj5cZ5JfDYeVkg81QS1RBsttk8TDrlifl10mDomWwreseY2E/W7FdQxkpeEhM/4SnxicQ==}
+  '@tinytown/pub@https://codeload.github.com/TinyTownStudio/pub/tar.gz/da7a5c444f56b9c6e520858c4e074b8aed63162b':
+    resolution: {tarball: https://codeload.github.com/TinyTownStudio/pub/tar.gz/da7a5c444f56b9c6e520858c4e074b8aed63162b}
+    version: 0.0.2
     hasBin: true
 
   '@trysound/sax@0.2.0':
@@ -285,9 +286,6 @@ packages:
   boxen@8.0.1:
     resolution: {integrity: sha512-F3PH5k5juxom4xktynS7MoFY+NUWH5LC4CnH11YB8NPew+HLpmBLCybSAEyb2F+4pRXhuhWqFesoQd6DAyc2hw==}
     engines: {node: '>=18'}
-
-  boxt@1.1.2:
-    resolution: {integrity: sha512-YvBJK+TsjrUNAjJliqEKiGdbKlPhr9I8/FDtLsZvhmVWp+NmHBWKMkpmDNkqYpptEA2XXjYVcs30YGj0/bKWQg==}
 
   brace-expansion@2.0.1:
     resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
@@ -419,6 +417,9 @@ packages:
   csso@5.0.5:
     resolution: {integrity: sha512-0LrrStPOdJj+SPCCrGhzryycLjwcgUSHBtxNA8aIDxf0GLsRh1cKYhB00Gd1lDOS4yGH69+SNn13+TWbVHETFQ==}
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0, npm: '>=7.0.0'}
+
+  defu@6.1.4:
+    resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
 
   didyoumean@1.2.2:
     resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==}
@@ -609,6 +610,10 @@ packages:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
 
+  is-url-superb@6.1.0:
+    resolution: {integrity: sha512-LXdhGlYqUPdvEyIhWPEEwYYK3yrUiPcBjmFGlZNv1u5GtIL5qQRf7ddDyPNAvsMFqdzS923FROpTQU97tLe3JQ==}
+    engines: {node: '>=12'}
+
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
@@ -688,6 +693,10 @@ packages:
     resolution: {integrity: sha512-eu38+hdgojoyq63s+yTpN4XMBdt5l8HhMhc4VKLO9KM5caLIBvUm4thi7fFaxyTmCKeNnXZ5pAlBwCUnhA09uw==}
     engines: {node: '>=10'}
 
+  mustache@4.2.0:
+    resolution: {integrity: sha512-71ippSywq5Yb7/tVYyGbkBggbU8H3u5Rz56fH60jGFgr8uHwxs+aSKeqmluIVzM0m0kB7xQjKS6qPfd0b2ZoqQ==}
+    hasBin: true
+
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
 
@@ -739,6 +748,9 @@ packages:
   path-scurry@1.11.1:
     resolution: {integrity: sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA==}
     engines: {node: '>=16 || 14 >=14.18'}
+
+  pathe@1.1.2:
+    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -959,6 +971,12 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-safe-parser@7.0.1:
+    resolution: {integrity: sha512-0AioNCJZ2DPYz5ABT6bddIqlhgwhpHZ/l65YAYo0BCIn0xiDpsnTHz0gnoTGk0OXZW0JRs+cDwL8u/teRdz+8A==}
+    engines: {node: '>=18.0'}
+    peerDependencies:
+      postcss: ^8.4.31
+
   postcss-scss@4.0.9:
     resolution: {integrity: sha512-AjKOeiwAitL/MXxQW2DliT28EKukvvbEWx3LBmJIRN8KfBGZbRTxNYW0kSqi1COiTZ57nZ9NW06S6ux//N1c9A==}
     engines: {node: '>=12.0'}
@@ -987,6 +1005,12 @@ packages:
   postcss@8.4.49:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
+
+  posthtml-base-url@3.1.5:
+    resolution: {integrity: sha512-BHEWszTyqGTP55J++1aGrYMVsbLFzpyfIe/LPhDAiBsCq2OqSvazZxEKke26uHnZKAMk1PRoAQ9s8DThA9IPjQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      posthtml: ^0.16.6
 
   posthtml-parser@0.11.0:
     resolution: {integrity: sha512-QecJtfLekJbWVo/dMAA+OSwY79wpRmbqS5TeXvXSX+f0c6pW4/SE6inzZ2qkU7oAMCPqIDkZDvd/bQsSFUnKyw==}
@@ -1060,6 +1084,10 @@ packages:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
 
+  srcset@5.0.1:
+    resolution: {integrity: sha512-/P1UYbGfJVlxZag7aABNRrulEXAwCSDo7fklafOQrantuPTDmYgijJMks2zusPCVzgW9+4P69mq7w6pYuZpgxw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
     engines: {node: '>=8'}
@@ -1104,10 +1132,6 @@ packages:
     resolution: {integrity: sha512-r4MeXnfBmSOuKUWmXe6h2CcyfzJCEk4F0pptO5jlnYSIViUkVmsawj80N5h2lO3gwcmSb4n3PuN+e+GC1Guylw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
-
-  tempura@0.4.1:
-    resolution: {integrity: sha512-NQ4Cs23jM6UUp3CcS5vjmyjTC6dtA5EsflBG2cyG0wZvP65AV26tJ920MGvTRYIImCY13RBpOhc7q4/pu+FG5A==}
-    engines: {node: '>=10'}
 
   terser@5.36.0:
     resolution: {integrity: sha512-IYV9eNMuFAV4THUspIRXkLakHnV6XO7FEdtKjf/mDyrnqUg9LnlOn6/RwRvM9SZjR4GUq8Nk8zj67FzVARr74w==}
@@ -1309,27 +1333,28 @@ snapshots:
 
   '@polka/url@1.0.0-next.28': {}
 
-  '@tinytown/pub@0.0.2(jiti@1.21.6)(yaml@2.6.1)':
+  '@tinytown/pub@https://codeload.github.com/TinyTownStudio/pub/tar.gz/da7a5c444f56b9c6e520858c4e074b8aed63162b(jiti@1.21.6)(srcset@5.0.1)(yaml@2.6.1)':
     dependencies:
       boxen: 8.0.1
-      boxt: 1.1.2
       chalk: 5.3.0
       chokidar: 4.0.1
       cssnano: 7.0.6(postcss@8.4.49)
       esbuild: 0.24.0
-      htmlnano: 2.1.1(cssnano@7.0.6(postcss@8.4.49))(postcss@8.4.49)(svgo@3.3.2)(terser@5.36.0)
+      htmlnano: 2.1.1(cssnano@7.0.6(postcss@8.4.49))(postcss@8.4.49)(srcset@5.0.1)(svgo@3.3.2)(terser@5.36.0)
       kleur: 4.1.5
       marked: 15.0.3
       mrmime: 2.0.0
+      mustache: 4.2.0
       postcss: 8.4.49
       postcss-import: 16.1.0(postcss@8.4.49)
       postcss-load-config: 6.0.1(jiti@1.21.6)(postcss@8.4.49)(yaml@2.6.1)
       postcss-scss: 4.0.9(postcss@8.4.49)
       posthtml: 0.16.6
+      posthtml-base-url: 3.1.5(posthtml@0.16.6)
       sade: 1.8.1
       sirv: 3.0.0
+      sucrase: 3.35.0
       svgo: 3.3.2
-      tempura: 0.4.1
       terser: 5.36.0
       tiny-glob: 0.2.9
     transitivePeerDependencies:
@@ -1397,10 +1422,6 @@ snapshots:
       type-fest: 4.30.0
       widest-line: 5.0.0
       wrap-ansi: 9.0.0
-
-  boxt@1.1.2:
-    dependencies:
-      strip-ansi: 6.0.1
 
   brace-expansion@2.0.1:
     dependencies:
@@ -1555,6 +1576,8 @@ snapshots:
     dependencies:
       css-tree: 2.2.1
 
+  defu@6.1.4: {}
+
   didyoumean@1.2.2: {}
 
   dlv@1.1.3: {}
@@ -1699,7 +1722,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  htmlnano@2.1.1(cssnano@7.0.6(postcss@8.4.49))(postcss@8.4.49)(svgo@3.3.2)(terser@5.36.0):
+  htmlnano@2.1.1(cssnano@7.0.6(postcss@8.4.49))(postcss@8.4.49)(srcset@5.0.1)(svgo@3.3.2)(terser@5.36.0):
     dependencies:
       cosmiconfig: 9.0.0
       posthtml: 0.16.6
@@ -1707,6 +1730,7 @@ snapshots:
     optionalDependencies:
       cssnano: 7.0.6(postcss@8.4.49)
       postcss: 8.4.49
+      srcset: 5.0.1
       svgo: 3.3.2
       terser: 5.36.0
     transitivePeerDependencies:
@@ -1745,6 +1769,8 @@ snapshots:
   is-json@2.0.1: {}
 
   is-number@7.0.0: {}
+
+  is-url-superb@6.1.0: {}
 
   isexe@2.0.0: {}
 
@@ -1801,6 +1827,8 @@ snapshots:
 
   mrmime@2.0.0: {}
 
+  mustache@4.2.0: {}
+
   mz@2.7.0:
     dependencies:
       any-promise: 1.3.0
@@ -1844,6 +1872,8 @@ snapshots:
     dependencies:
       lru-cache: 10.4.3
       minipass: 7.1.2
+
+  pathe@1.1.2: {}
 
   picocolors@1.1.1: {}
 
@@ -2030,6 +2060,10 @@ snapshots:
       postcss: 8.4.49
       postcss-value-parser: 4.2.0
 
+  postcss-safe-parser@7.0.1(postcss@8.4.49):
+    dependencies:
+      postcss: 8.4.49
+
   postcss-scss@4.0.9(postcss@8.4.49):
     dependencies:
       postcss: 8.4.49
@@ -2057,6 +2091,16 @@ snapshots:
       nanoid: 3.3.8
       picocolors: 1.1.1
       source-map-js: 1.2.1
+
+  posthtml-base-url@3.1.5(posthtml@0.16.6):
+    dependencies:
+      defu: 6.1.4
+      is-url-superb: 6.1.0
+      pathe: 1.1.2
+      postcss: 8.4.49
+      postcss-safe-parser: 7.0.1(postcss@8.4.49)
+      posthtml: 0.16.6
+      srcset: 5.0.1
 
   posthtml-parser@0.11.0:
     dependencies:
@@ -2123,6 +2167,8 @@ snapshots:
       source-map: 0.6.1
 
   source-map@0.6.1: {}
+
+  srcset@5.0.1: {}
 
   string-width@4.2.3:
     dependencies:
@@ -2204,8 +2250,6 @@ snapshots:
       sucrase: 3.35.0
     transitivePeerDependencies:
       - ts-node
-
-  tempura@0.4.1: {}
 
   terser@5.36.0:
     dependencies:
