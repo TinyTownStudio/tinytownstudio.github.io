@@ -1,0 +1,17 @@
+{
+  "name": "tinytownstudio.github.io",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pub ./src ",
+    "build": "pub ./src ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tinytown/pub": "^0.0.2",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.15"
+  }
+}
