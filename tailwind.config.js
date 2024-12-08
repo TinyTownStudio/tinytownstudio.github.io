@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{markdown,mustache,html}",
+    "./src/**/*.{markdown,mustache,html,svelte}",
   ],
   theme: {
     extend: {
@@ -10,6 +10,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography")
+  ],
 }
-

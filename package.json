@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tinytown/pub": "v0.0.3",
+    "@tailwindcss/typography": "^0.5.15",
+    "@tinytown/pub": "github:tinytownstudio/pub",
     "autoprefixer": "^10.4.20",
+    "marked": "^15.0.3",
+    "svelte": "^5.8.1",
     "tailwindcss": "^3.4.15"
   }
 }
