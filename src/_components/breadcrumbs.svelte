@@ -22,7 +22,7 @@
                         >
                             <a
                                 href={crumb.href ?? "?#"}
-                                class="focus:underline focus:outline-none font-serif italic"
+                                class="focus:underline focus:outline-none font-semibold italic font-serif"
                                 aria-label="Return to top of page"
                                 >{crumb.label}</a
                             >
