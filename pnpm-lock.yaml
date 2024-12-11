@@ -13,7 +13,7 @@ importers:
         version: 0.5.15(tailwindcss@3.4.15)
       '@tinytown/pub':
         specifier: github:tinytownstudio/pub
-        version: https://codeload.github.com/tinytownstudio/pub/tar.gz/027cb5f62ce0b4eefac0a8ba8748a01d5a94a234(jiti@1.21.6)(svelte@5.8.1)(yaml@2.6.1)
+        version: https://codeload.github.com/tinytownstudio/pub/tar.gz/c3de2543d07b5349bf7742acc670dc541813bf08(jiti@1.21.6)(svelte@5.8.1)(yaml@2.6.1)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -236,8 +236,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20'
 
-  '@tinytown/pub@https://codeload.github.com/tinytownstudio/pub/tar.gz/027cb5f62ce0b4eefac0a8ba8748a01d5a94a234':
-    resolution: {tarball: https://codeload.github.com/tinytownstudio/pub/tar.gz/027cb5f62ce0b4eefac0a8ba8748a01d5a94a234}
+  '@tinytown/pub@https://codeload.github.com/tinytownstudio/pub/tar.gz/c3de2543d07b5349bf7742acc670dc541813bf08':
+    resolution: {tarball: https://codeload.github.com/tinytownstudio/pub/tar.gz/c3de2543d07b5349bf7742acc670dc541813bf08}
     version: 0.0.3
     hasBin: true
     peerDependencies:
@@ -1311,7 +1311,7 @@ snapshots:
       postcss-selector-parser: 6.0.10
       tailwindcss: 3.4.15
 
-  '@tinytown/pub@https://codeload.github.com/tinytownstudio/pub/tar.gz/027cb5f62ce0b4eefac0a8ba8748a01d5a94a234(jiti@1.21.6)(svelte@5.8.1)(yaml@2.6.1)':
+  '@tinytown/pub@https://codeload.github.com/tinytownstudio/pub/tar.gz/c3de2543d07b5349bf7742acc670dc541813bf08(jiti@1.21.6)(svelte@5.8.1)(yaml@2.6.1)':
     dependencies:
       '@dumbjs/quick-hash': 0.0.4
       '@polka/url': 0.5.0
