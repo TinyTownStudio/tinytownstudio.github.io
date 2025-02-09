@@ -15,10 +15,6 @@ body {
   color: #181819;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 .subtle {
   color: var(--subtle);
 }
