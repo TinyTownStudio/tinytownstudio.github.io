@@ -6,6 +6,15 @@ import MinifyCSS from 'clean-css';
 
 import { extname, join } from 'node:path';
 
+export async function purgePlugin(eleventyConfig) {
+  eleventyConfig.on(
+    'eleventy.after',
+    async ({ directories, results, runMode, outputMode }) => {
+      await purge(directories);
+    }
+  );
+}
+
 export async function purge(directories) {
   const inputDir = directories.output;
 

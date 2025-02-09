@@ -11,12 +11,10 @@
   "license": "ISC",
   "description": "",
   "type": "module",
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "clean-css": "^5.3.3",
-    "shed-css": "^1.4.0"
-  },
-  "devDependencies": {
+    "shed-css": "^1.4.0",
     "@fullhuman/postcss-purgecss": "^7.0.2",
     "eleventy-plugin-purgecss": "^0.5.0",
     "postcss": "^8.5.1",

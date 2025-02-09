@@ -1,7 +1,10 @@
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
-import { purge } from './_lib/purge.js';
+import { purgePlugin } from './_plugins/purge.js';
+
+import criticalCss from 'eleventy-critical-css';
 
 export default function (eleventyConfig) {
+  eleventyConfig.addPlugin(criticalCss);
   eleventyConfig.addPassthroughCopy({
     './public/': '/',
   });
@@ -10,11 +13,5 @@ export default function (eleventyConfig) {
       '/node_modules/shed-css/dist/index.css',
   });
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-
-  eleventyConfig.on(
-    'eleventy.after',
-    async ({ directories, results, runMode, outputMode }) => {
-      await purge(directories);
-    }
-  );
+  eleventyConfig.addPlugin(purgePlugin);
 }
