@@ -1,23 +1,29 @@
 {
   "name": "tinytownstudio.github.io",
   "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "build": "eleventy",
     "dev": "eleventy --serve",
-    "build": "eleventy"
+    "prepare": "husky"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "type": "module",
+  "prettier": "@barelyhuman/prettier-config",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "clean-css": "^5.3.3",
-    "shed-css": "^1.4.0",
+    "@barelyhuman/prettier-config": "^2.0.2",
     "@fullhuman/postcss-purgecss": "^7.0.2",
+    "clean-css": "^5.3.3",
     "eleventy-plugin-purgecss": "^0.5.0",
+    "husky": "^9.1.7",
+    "nano-staged": "^0.8.0",
     "postcss": "^8.5.1",
+    "prettier": "^3.4.2",
+    "shed-css": "^1.4.0",
     "tiny-glob": "^0.2.9"
   }
 }
