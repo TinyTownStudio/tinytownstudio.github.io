@@ -8,7 +8,9 @@ export default api => {
 function prettify(api) {
   const prettierFiles = api.filenames
     .filter(file =>
-      ['.js', '.css', '.njk', '.html', '.json'].includes(path.extname(file))
+      ['.js', '.md', '.css', '.njk', '.html', '.json'].includes(
+        path.extname(file)
+      )
     )
     .join(' ')
   return prettierFiles.length > 0 ? `prettier --write ${prettierFiles}` : ``
