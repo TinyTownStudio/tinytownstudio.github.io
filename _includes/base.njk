@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tinytown.studio</title>
+    <style>
+      {% include "../node_modules/shed-css/dist/index.css" %}
+    </style>
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero-header">
+      <h1 class="m:0 p:0">
+        <small>tiny</small><span class="t-t:u">town</span>
+      </h1>
+      <p class="m:0 p:0 m-t:1 subtle">tiny things for the tiny ones</p>
+    </header>
+    <div class="m-t:10">
+      {{ content | safe }}
+    </div>
+  </body>
+</html>

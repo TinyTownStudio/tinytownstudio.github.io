@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.enable": true,
+  "emmet.includeLanguages": {
+    "njk": "html",
+    "nunjucks": "html"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "djlint.enableLinting": false
+  },
+  "files.associations": {
+    "*.njk": "html"
+  }
+}

@@ -41,12 +41,12 @@ jobs:
               working-directory: ${{ env.BUILD_PATH }}
             - name: Build
               run: |
-                  pnpm build --base-url "${{ steps.pages.outputs.base_path }}"
+                  pnpm build --pathprefix "${{ steps.pages.outputs.base_path }}"
               working-directory: ${{ env.BUILD_PATH }}
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:
-                  path: ${{ env.BUILD_PATH }}/dist
+                  path: ${{ env.BUILD_PATH }}/_site
 
     deploy:
         environment:

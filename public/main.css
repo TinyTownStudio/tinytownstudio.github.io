@@ -1,0 +1,41 @@
+:root {
+--bg: #efefef;
+--fg: #181819; 
+--subtle: #444;
+}
+
+body{
+  font-family: Quicksand, sans-serif;
+  max-width: 80ch;
+  margin: 0 auto;
+
+  background-color: #efefef;
+  color: #181819; 
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.subtle{
+  color: var(--subtle)
+}
+
+.hero-header{
+  font-size: 2rem;
+  width:100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: var(--subtle);
+  text-underline-offset: 4px;
+}
+
+a:hover{
+  color: var(--fg); 
+}
