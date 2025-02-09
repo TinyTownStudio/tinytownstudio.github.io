@@ -4,4 +4,6 @@ layout: base-simple-header.njk
 
 ## Products
 
-- [Ping (Free)](https://ping.tinytown.studio)
+<a class="badge-container" href="https://ping.tinytown.studio">
+  Ping <span class="badge">Free</span>
+</a>

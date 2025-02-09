@@ -1,29 +1,31 @@
 :root {
---bg: #efefef;
---fg: #181819; 
---subtle: #444;
+  --bg: #efefef;
+  --fg: #181819;
+  --subtle: #444;
 }
 
-body{
+body {
   font-family: Quicksand, sans-serif;
   max-width: 80ch;
   margin: 0 auto;
 
+  font-size: 120%;
+
   background-color: #efefef;
-  color: #181819; 
+  color: #181819;
 }
 
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
 
-.subtle{
-  color: var(--subtle)
+.subtle {
+  color: var(--subtle);
 }
 
-.hero-header{
+.hero-header {
   font-size: 2rem;
-  width:100%;
+  width: 100%;
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -36,6 +38,21 @@ a {
   text-underline-offset: 4px;
 }
 
-a:hover{
-  color: var(--fg); 
+a:hover {
+  color: var(--fg);
+}
+
+.badge-container {
+  position: relative;
+}
+
+.badge-container .badge {
+  position: absolute;
+  top: -10px;
+  right: -70%;
+  font-size: 0.6rem;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  padding: 4px 8px;
 }
