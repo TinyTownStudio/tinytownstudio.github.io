@@ -1,10 +1,7 @@
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy'
 import { purgePlugin } from './_plugins/purge.js'
 
-import criticalCss from 'eleventy-critical-css'
-
 export default function (eleventyConfig) {
-  eleventyConfig.addPlugin(criticalCss)
   eleventyConfig.addPassthroughCopy({
     './public/': '/',
   })
