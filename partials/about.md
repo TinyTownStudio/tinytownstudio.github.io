@@ -1,9 +1,3 @@
----
-layout: base-simple-header.njk
----
-
-## About
-
 We are TinyTown.studio, a dedicated team of developers committed to creating
 solutions that _**just work**_ with a focus on simplicity and efficiency.
 

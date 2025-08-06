@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      markdown-it:
+        specifier: ^14.1.0
+        version: 14.1.0
     devDependencies:
       '@11ty/eleventy':
         specifier: ^3.0.0
@@ -35,9 +39,6 @@ importers:
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
-      shed-css:
-        specifier: ^1.4.0
-        version: 1.4.0
       tiny-glob:
         specifier: ^0.2.9
         version: 0.2.9
@@ -757,9 +758,6 @@ packages:
   shebang-regex@3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==, tarball: https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz}
     engines: {node: '>=8'}
-
-  shed-css@1.4.0:
-    resolution: {integrity: sha512-l5p6Nefqc0Xve9XSLp2s/TiZrIcppM9M/kbAolm0me59B0vinlcprPpeaGKKJ5xKk9xJ2kIhOfr9+rLw1T9ikg==, tarball: https://registry.npmjs.org/shed-css/-/shed-css-1.4.0.tgz}
 
   signal-exit@4.1.0:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==, tarball: https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz}
@@ -1587,8 +1585,6 @@ snapshots:
       shebang-regex: 3.0.0
 
   shebang-regex@3.0.0: {}
-
-  shed-css@1.4.0: {}
 
   signal-exit@4.1.0: {}
 

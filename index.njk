@@ -1,8 +1,56 @@
----
-layout: base.njk
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>tinytown.studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+<body>
+    
+</body>
+</html>
 
-<div class="d:f">
-  <a class="link w:1of12" href="/about">About</a>
-  <a class="link w:1of12" href="/products">Products</a>
-</div>
+
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <span class="micro-label"><small>tinytown.studio</small></span>
+        <span class="dot" aria-hidden="true"></span>
+      </header>
+
+      <main>
+        <section aria-label="Hero">
+          <span class="micro-label"><small>WELCOME</small></span>
+          <h1>Minimal Software Craftsmen.</h1>
+          <p>Building hyperfocused software for everyone</p>
+        </section>
+
+        <section id="about" aria-label="About">
+          <span class="micro-label"><small>About</small></span>
+            <article>
+                {% set snippet %}{% include './partials/about.md' %}{% endset %}
+                {{ snippet | markdown | safe }}
+            </article>
+        </section>
+        <section id="products" aria-label="Products">
+          <span class="micro-label"><small>Products</small></span>
+          <div class="products-grid">
+            <article class="product-card">
+              <div class="product-header">
+                <span class="dot" aria-hidden="true"></span>
+                <h2>Ping</h2>
+              </div>
+              <p>Simple, light, and non-intrusive uptime monitor service.</p>
+              <a href="https://ping.tinytown.studio" class="external-link" target="_blank" rel="noopener" aria-label="Visit Ping uptime monitor (opens in new tab)">Visit Ping &rarr;</a>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span class="micro-label"><small>&copy; 2025 tinytown.studio</small></span>
+      </footer>
+    </div>
+  </body>
+</html>
